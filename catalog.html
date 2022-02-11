@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: «Nёrd's»</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicons/32.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicons/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="img/logo.svg" alt="Логотип &lt;Нердс&gt;">
+        </a>
+        <ul>
+          <li>
+            <a href="index.html">Студия</a>
+          </li>
+          <li>
+            <a href="blank.html">Клиенты</a>
+          </li>
+          <li>
+            <a>Магазин</a>
+          </li>
+          <li>
+            <a href="blank.html">Контакты</a>
+          </li>
+        </ul>
+        <a href="blank.html">Корзина</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Магазин готовых шаблонов</h1>
+      <section>
+        <h2>Фильтр шаблонов</h2>
+        <form method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Стоимость:</legend>
+            <input type="range" name="rage" min="0" max="150000" step="1">
+            <label>
+              от
+              <input type="number" name="min price" value="0"></label>
+            <label>
+              до
+              <input type="number" name="max price" value="150000"></label>
+          </fieldset>
+          <fieldset>
+            <legend>Сетка:</legend>
+            <label>
+              <input type="radio" name="filter__input-radio" value="adaptive" checked>
+              Адаптивная
+            </label>
+            <label>
+              <input type="radio" name="filter__input-radio" value="fixed">
+              Фиксированная
+            </label>
+            <label>
+              <input type="radio" name="filter__input-radio" value="rubber">
+              Резиновая
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <label>
+              <input type="checkbox" name="slider" checked>
+              Слайдер
+            </label>
+            <label>
+              <input type="checkbox" name="advantage">
+              Блок преимуществ
+            </label>
+            <label>
+              <input type="checkbox" name="news" checked>
+              Новости
+            </label>
+            <label>
+              <input type="checkbox" name="gallery">
+              Галерея
+            </label>
+            <label>
+              <input type="checkbox" name="basket">
+              Корзина
+            </label>
+          </fieldset>
+          <button type="submit">Показать</button>
+
+        </form>
+        <form>
+          <fieldset>Сортировать:</fieldset>
+            <label>
+              <input type="radio" name="sorting__input-radio" value="by-price" checked>
+              По цене
+            </label>
+            <label>
+              <input type="radio" name="sorting__input-radio" value="type">
+              По типу
+            </label>
+            <label>
+              <input type="radio" name="sorting__input-radio" value="name">
+              По названию
+            </label>
+        </form>
+      </section>
+      <section>
+        <h2>Список шаблонов</h2>
+        <ul>
+          <li>
+            <a href="blank.html">
+              <h3>Sedona</h3>
+              <p>Информационный сайт для туристов</p>
+              <img src="img/catalog/sedona.png" alt="Sedona">
+            </a>
+            <button type="button">9 900 ₽</button>
+          </li>
+          <li>
+            <a href="blank.html">
+              <h3>Pink App</h3>
+              <p>Продуктовый лендинг приложения для iOS и Android</p>
+              <img src="img/catalog/pink.png" alt="Pink App">
+            </a>
+            <button type="button">9 900 ₽</button>
+          </li>
+          <li>
+            <a href="blank.html">
+              <h3>Barbershop</h3>
+              <p>Сайт салона красоты. Для мужчин, да.</p>
+              <img src="img/catalog/boroginski.png" alt="Barbershop">
+            </a>
+            <button type="button">9 900 ₽</button>
+          </li>
+          <li>
+            <a href="blank.html">
+              <h3>MISHKA</h3>
+              <p>Интернет-магазин вязаных игрушек</p>
+              <img src="img/catalog/mishka.png" alt="MISHKA">
+            </a>
+            <button type="button">9 900 ₽</button>
+          </li>
+          <li>
+            <a href="blank.html">
+              <h3>A Plus</h3>
+              <p>Лендинг курсов повышения квалификации</p>
+              <img src="img/catalog/a-plus.png" alt="A Plus">
+            </a>
+            <button type="button">9 900 ₽</button>
+          </li>
+          <li>
+            <a href="blank.html">
+              <h3>КВАСТ</h3>
+              <p>Промо-сайт производителя крафтового кваса</p>
+              <img src="img/catalog/kvast.png" alt="КВАСТ">
+            </a>
+            <button type="button">9 900 ₽</button>
+          </li>
+        </ul>
+        <ul>
+          <li><a>1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+        </ul>
+        <button type="button">Следующая</button>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <h2>Контакты</h2>
+        <p>Nёrd's design studio</p>
+        <p>наб. Реки Карповки, 5 лит П, Санкт-Петербург</p>
+        <a href="tel:+78005558628">+7 800 555-86-28</a>
+        <button type="button">Напишите нам</button>
+        <img src="img/map/marker.png" width="231" height="190" alt="Маркер «Nёrd's» на карте">
+        <img src="img/map/map.jpg" width="1440" height="416" alt="Карта в районе студии «Nёrd's».">
+      </section>
+      <section>
+        <h2>Соцсети</h2>
+        <a href="blank.html">Вконтакте</a>
+        <a href="blank.html">Фейсбук</a>
+        <a href="blank.html">Телеграмм</a>
+        <p>Давайте дружить, это выгодно!</p>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </section>
+    </footer>
+
+  </body>
+</html>
