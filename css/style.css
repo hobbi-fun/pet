@@ -1,0 +1,16 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.stories {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.nev{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
