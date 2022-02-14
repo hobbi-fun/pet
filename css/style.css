@@ -10,7 +10,4 @@
   grid-row-end: 5;
 }
 
-.nev{
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
+
