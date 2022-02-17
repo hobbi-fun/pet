@@ -1,6 +1,7 @@
-.wrapper {
+.wrapper, aside, .author {
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 50% 50%;
+  grid-gap: 3px;
 }
 
 .stories {
@@ -11,3 +12,16 @@
 }
 
 
+
+.nev{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+section, aside, div {
+  border: solid rgb(44, 65, 121);
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 3px;
+}
