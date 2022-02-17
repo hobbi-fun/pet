@@ -13,9 +13,9 @@
 
 
 
-.nev{
+.nav{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 section, aside, div {
   border: solid rgb(44, 65, 121);
@@ -25,3 +25,4 @@ section, aside, div {
 footer {
   margin-top: 3px;
 }
+
