@@ -1,3 +1,7 @@
 .photo {
   float: left;
 }
+
+body { 
+  background-color: lime;
+}
