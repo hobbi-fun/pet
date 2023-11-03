@@ -1,6 +1,6 @@
 .center {
-  width: 80%;
-  margin: 10%;
+  width: 300px;
+  margin: 5%;
   background: orange;
   display: flex;
 }
