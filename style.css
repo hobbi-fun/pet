@@ -15,7 +15,7 @@
 }
 
 .header {
-  border: solid 5px crimson;
+  border: solid 5px indigo;
   grid-row: 1;
   grid-column: 1 / 4;
 }
